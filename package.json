@@ -1,0 +1,23 @@
+{
+  "name": "ydla-mpd-playlist",
+  "version": "1.0.0",
+  "description": "After insertion plugin for YouTube download archiver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laBecasse/ydla-mpd-playlist.git"
+  },
+  "keywords": [
+    "ydla",
+    "mpd"
+  ],
+  "author": "La Bécasse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laBecasse/ydla-mpd-playlist/issues"
+  },
+  "homepage": "https://github.com/laBecasse/ydla-mpd-playlist#readme"
+}
