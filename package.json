@@ -1,6 +1,6 @@
 {
   "name": "ydla-mpd-playlist",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "After update plugin for YouTube download archiver creating playlist for mpd",
   "main": "index.js",
   "scripts": {

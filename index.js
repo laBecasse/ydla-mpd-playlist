@@ -20,7 +20,7 @@ module.exports = function (medias) {
     fs.readFile(playlistPath, 'utf8', function(err, data) {
       if (err) return reject(err)
       if (!data.includes(lines)) {
-        fs.appendFile(playlistPath, lines, err => {
+        fs.writeFile(playlistPath, lines + data, err => {
           if (err) return reject(err)
           return resolve(lines)
         })
