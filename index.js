@@ -19,7 +19,7 @@ module.exports = function (medias) {
   return new Promise((resolve, reject) => {
     fs.readFile(playlistPath, 'utf8', function(err, data) {
       if (err) return reject(err)
-      if (data.includes(lines)) {
+      if (!data.includes(lines)) {
         fs.appendFile(playlistPath, lines, err => {
           if (err) return reject(err)
           return resolve(lines)
